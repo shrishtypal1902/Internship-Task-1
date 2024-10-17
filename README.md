@@ -1,5 +1,5 @@
-# Internship-Task-1
-Task 1 Data Cleaning and Dashboard 
+Internship Task at Novanectar Services Pvt. ltd.
+Task 1 Data Cleaning and Preparing for the same Dashboard 
 Step 1 - The columns "posteam," "time," and "desc" are where I found missing values. 
 Step 2- In the "posteam" column, I fill in "Na" in place of blank cells. In the "time" column, I use the median formula to replace blank cells. In the "desc" column, I fill in "No." 
 Step 3 - In this process, I use outliers. First, we arrange the data in ascending order. Then, from the "yards gain" column, we determine Q1 and Q3. Next, we calculate the Interquartile Range (IQR) using the formula IQR = Q3 - Q1. After that, we find the lower bound and upper bound. Once we have both values, we highlight the cells that fall between the lower bound and upper bound values. We repeat the same steps for the remaining columns "postteamscore" and "scorediff." 
